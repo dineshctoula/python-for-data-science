@@ -96,7 +96,38 @@ print(empty)
 
 
 
-data_types= b"hello"
+data_types= b"hello, memory view"
+my=memoryview(data_types)
+print(type(my))
+print(my[0])
+
+
+# indexing and slicing of string 
+#slicing works by last elements -1 
+str='abcdefghijklmnopqrstuvwxyz'
+print(str[3])
+
+
+
+
+
+# tuples and its  methods 
+
+tup=('a','b', 'c','d','e','f','g','h')
+print(tup.index('d'))
+
+
+tup=('a','a', 'a','d','e','f','g','h')
+
+print(tup.count('a'))
+print(tup.count('d'))
+
+
+
+
+
+
+
 
 
 
