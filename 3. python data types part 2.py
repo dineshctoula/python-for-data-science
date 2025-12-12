@@ -83,3 +83,82 @@ print(list_names)
 del list_names["name2"]
 print(list_names)
 
+
+# operator 
+print(3>5 and 4<5)
+
+
+if not 5:
+    print("hello")
+else:
+    print("hi")
+
+
+age=23
+if(age>20 & age<=5):
+    print(age)
+
+
+
+
+
+age=23
+if(age>30 and age<=5):
+    print(age)
+
+
+
+age=23
+if(age>20 or age<25):
+    print(age)
+else:
+    print("nothing")
+
+
+
+my_list=[1,2,3,4,5]
+my_string="hello world"
+my_dict={"name":"alice", "age":30}
+
+print( 1 in my_list)
+print(1 not in my_list)
+print('d'in my_string)
+print('hello' in my_string)
+print("name" not in my_dict)
+
+print("name" in my_dict)
+
+
+
+
+x=5
+x+=5
+print(x)
+
+
+x=5
+x**=2
+print(x)
+
+
+
+x=5
+y=7
+x|=y
+print(x)
+
+
+x=5
+# first binary form ma convert  hunxa 
+
+y=2
+x&=y
+print(x)
+
+
+
+# walrus operator 
+
+
+print(x :=3)
+print(x)
