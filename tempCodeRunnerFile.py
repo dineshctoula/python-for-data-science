@@ -1,14 +1,8 @@
-class Public:
-    # __str__ is another magic function
-    def __init__(self):
-        self.name = "John"  # Public attribute
+number = int(input())
 
-    def display_name(self):
-        print(self.name)  # Public method
+# print(f"entered number is: {number}")
 
-obj = Public()
-obj.display_name()  # Accessible
-print(obj.name)  # Accessible
-
-
-
+# if number % 2 == 0:
+#     print("even")
+# else:
+#     print("odd")
